@@ -13,7 +13,6 @@
   "devDependencies": {
     "@nomicfoundation/hardhat-toolbox": "^2.0.0",
     "hardhat": "^2.12.1",
-    "prettier": "^2.7.1",
-    "prettier-plugin-solidity": "^1.0.0-beta.24"
+    "prettier": "^2.7.1"
   }
 }
