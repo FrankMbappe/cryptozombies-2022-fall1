@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "test": "npx hardhat test",
+    "compile": "npx hardhat compile",
     "deploy": "npx hardhat run scripts/deploy.ts",
     "format": "npx prettier --write ."
   },
