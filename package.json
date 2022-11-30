@@ -1,12 +1,13 @@
 {
-  "name": "cryptozombies-2022-fall1",
+  "name": "twitter-clone-sc",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "npx hardhat test",
     "compile": "npx hardhat compile",
-    "deploy": "npx hardhat run scripts/deploy.ts",
+    "devdeploy": "npx hardhat run scripts/deploy.ts --network ganache",
+    "prodeploy": "npx hardhat run scripts/deploy.ts --network goerli",
     "format": "npx prettier --write ."
   },
   "author": "",

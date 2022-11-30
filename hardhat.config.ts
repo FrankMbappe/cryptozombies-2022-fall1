@@ -10,7 +10,6 @@ const GOERLI_PRIVATE_KEY = process.env.GOERLI_PRIVATE_KEY;
 
 const config: HardhatUserConfig = {
   solidity: "0.8.9",
-  defaultNetwork: "goerli",
   networks: {
     goerli: {
       url: `https://eth-goerli.alchemyapi.io/v2/${ALCHEMY_API_KEY}`,
@@ -19,7 +18,7 @@ const config: HardhatUserConfig = {
     ganache: {
       url: "http://127.0.0.1:7545",
       accounts: [
-        "a4a11159ecdb8598f9c66f5ebee3c952147843cec3a59352e92778d1a517faf2",
+        "52676e08113cbeb8fb8bcac4c8b2d100c0fe1a8adcbb8a466ad0814735718ded", // Replace with your ganache private key
       ],
       chainId: 1337,
     },

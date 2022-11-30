@@ -9,7 +9,9 @@ module.exports = {
   },
   env: {
     node: true,
-    jest: true,
-    ethers: true,
+    mocha: true,
+  },
+  rules: {
+    "prettier/prettier": 0,
   },
 };
