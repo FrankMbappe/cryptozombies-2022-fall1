@@ -69,6 +69,8 @@ To deploy on Goerli, just compile the project as shown earlier and run this comm
 npm run prodeploy
 ```
 
+<br />
+
 ## 🧩 Miscellaneous
 
 To reformat the entire project files with [Prettier](https://prettier.io/), use the following command:
