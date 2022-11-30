@@ -17,7 +17,12 @@ Once you have clone the project, install project dependencies using the followin
 npm install
 ```
 
-<br />
+Create a `.env` file in the root directory and set your [Alchemy](https://www.alchemy.com/) API key and Goerli account private key values following this format:
+
+```env
+ALCHEMY_API_KEY=<YOUR ALCHEMY API KEY>
+GOERLI_PRIVATE_KEY=<YOUR GOERLI API KEY>
+```
 
 Test the project using the following command:
 
@@ -29,20 +34,13 @@ npm run test
 
 ## 🌍 For deployment
 
-Create a `.env` file in the root directory and set your [Alchemy](https://www.alchemy.com/) API key and Goerli private key values using the following format:
-
-```env
-ALCHEMY_API_KEY=<YOUR ALCHEMY API KEY>
-GOERLI_PRIVATE_KEY=<YOUR GOERLI API KEY>
-```
-
 Compile the project using the following command:
 
 ```shell
 npm run compile
 ```
 
-If you want to test the project using the [Ganache](https://trufflesuite.com/ganache/) testnet, just replace in the file [`hardhat.config.ts`](hardhat.config.ts) the first value of `accounts` array with your Ganache account private key:
+If you want to test the project using the [Ganache](https://trufflesuite.com/ganache/) testnet, just replace in the file [`hardhat.config.ts`](hardhat.config.ts), the first value of `accounts` array with your Ganache account private key:
 
 ```ts
   ...
